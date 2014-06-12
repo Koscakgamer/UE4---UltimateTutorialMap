@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug_Program|Win32">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Program|x64">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|Win32">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|x64">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Program|Win32">
+			<Configuration>IOS_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Program|x64">
+			<Configuration>IOS_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Program|Win32">
+			<Configuration>WinRT_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Program|x64">
+			<Configuration>WinRT_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_ARM_Debug_Program|Win32">
+			<Configuration>WinRT_ARM_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_ARM_Debug_Program|x64">
+			<Configuration>WinRT_ARM_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|Win32">
+			<Configuration>Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|x64">
+			<Configuration>Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|Win32">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|x64">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Program|Win32">
+			<Configuration>IOS_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Program|x64">
+			<Configuration>IOS_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Program|Win32">
+			<Configuration>WinRT_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Program|x64">
+			<Configuration>WinRT_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_ARM_Development_Program|Win32">
+			<Configuration>WinRT_ARM_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_ARM_Development_Program|x64">
+			<Configuration>WinRT_ARM_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Target.cs" />
+		<None Include="..\..\..\..\Unreal Engine 4.2\Engine\Programs\UnrealFrontend\Config\DefaultEngine.ini" />
+		<None Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Build.cs" />
+		<ClCompile Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.cpp" />
+		<ClInclude Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.h" />
+		<ClCompile Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\UnrealFrontend\Private\Mac\MacUnrealFrontendMain.cpp" />
+		<ClCompile Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\UnrealFrontend\Private\Windows\WindowsUnrealFrontendMain.cpp" />
+		<Manifest Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\UnrealFrontend\Resources\Windows\Debug-UnrealFrontend-Win32.manifest" />
+		<Manifest Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\UnrealFrontend\Resources\Windows\Debug-UnrealFrontend-Win64.manifest" />
+		<Manifest Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend-Win32.manifest" />
+		<Manifest Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend-Win64.manifest" />
+		<None Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend.ico" />
+		<ResourceCompile Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend.rc" />
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{3F9BE4E3-A5E6-4EFB-B283-D8A3AC3B7C51}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<RootNamespace>UnrealFrontend</RootNamespace>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_ARM_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_ARM_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings" />
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Build.bat" UnrealFrontend Win32 Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Rebuild.bat" UnrealFrontend Win32 Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Clean.bat" UnrealFrontend Win32 Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine4\Unreal Engine 4.2\Engine\Binaries\Win32\UnrealFrontend-Win32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Build.bat" UnrealFrontend Win64 Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Rebuild.bat" UnrealFrontend Win64 Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Clean.bat" UnrealFrontend Win64 Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine4\Unreal Engine 4.2\Engine\Binaries\Win64\UnrealFrontend-Win64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Build.bat" UnrealFrontend Mac Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Rebuild.bat" UnrealFrontend Mac Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Clean.bat" UnrealFrontend Mac Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine4\Unreal Engine 4.2\Engine\Binaries\Mac\UnrealFrontend-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Build.bat" UnrealFrontend IOS Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Rebuild.bat" UnrealFrontend IOS Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Clean.bat" UnrealFrontend IOS Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine4\Unreal Engine 4.2\Engine\Binaries\IOS\UnrealFrontend-IOS-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Build.bat" UnrealFrontend WinRT Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Rebuild.bat" UnrealFrontend WinRT Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Clean.bat" UnrealFrontend WinRT Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine4\Unreal Engine 4.2\Engine\Binaries\WinRT\UnrealFrontend-WinRT-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_ARM_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_ARM_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Build.bat" UnrealFrontend WinRT_ARM Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Rebuild.bat" UnrealFrontend WinRT_ARM Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Clean.bat" UnrealFrontend WinRT_ARM Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine4\Unreal Engine 4.2\Engine\Binaries\WinRT_ARM\UnrealFrontend-WinRT_ARM-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Build.bat" UnrealFrontend Win32 Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Rebuild.bat" UnrealFrontend Win32 Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Clean.bat" UnrealFrontend Win32 Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine4\Unreal Engine 4.2\Engine\Binaries\Win32\UnrealFrontend.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Build.bat" UnrealFrontend Win64 Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Rebuild.bat" UnrealFrontend Win64 Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Clean.bat" UnrealFrontend Win64 Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine4\Unreal Engine 4.2\Engine\Binaries\Win64\UnrealFrontend.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Build.bat" UnrealFrontend Mac Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Rebuild.bat" UnrealFrontend Mac Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Clean.bat" UnrealFrontend Mac Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine4\Unreal Engine 4.2\Engine\Binaries\Mac\UnrealFrontend</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Build.bat" UnrealFrontend IOS Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Rebuild.bat" UnrealFrontend IOS Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Clean.bat" UnrealFrontend IOS Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine4\Unreal Engine 4.2\Engine\Binaries\IOS\UnrealFrontend</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Build.bat" UnrealFrontend WinRT Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Rebuild.bat" UnrealFrontend WinRT Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Clean.bat" UnrealFrontend WinRT Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine4\Unreal Engine 4.2\Engine\Binaries\WinRT\UnrealFrontend.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_ARM_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_ARM_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Build.bat" UnrealFrontend WinRT_ARM Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Rebuild.bat" UnrealFrontend WinRT_ARM Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"E:\UnrealEngine4\Unreal Engine 4.2\Engine\Build\BatchFiles\Clean.bat" UnrealFrontend WinRT_ARM Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine4\Unreal Engine 4.2\Engine\Binaries\WinRT_ARM\UnrealFrontend.exe</NMakeOutput>
+	</PropertyGroup>
+	<PropertyGroup>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;UE_ROCKET=0;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=0;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=1;WITH_PLUGIN_SUPPORT=1;USE_LOGGING_IN_SHIPPING=0;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;UBT_COMPILED_PLATFORM=Win64;WIN32=1;_WIN32_WINNT=0x0600;WINVER=0x0600;PLATFORM_WINDOWS=1;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="UnrealFrontend.exe";UNREALFRONTEND_API=;AUTOMATIONCONTROLLER_API=;UE_ENABLE_ICU=1;WITH_STEAMWORKS=0;WITH_DIRECTXMATH=0;CORE_API=;DEVICEMANAGER_API=;TARGETDEVICESERVICES_API=;LAUNCHERSERVICES_API=;MESSAGING_API=;COREUOBJECT_API=;PROFILERCLIENT_API=;PROJECTS_API=;SESSIONFRONTEND_API=;SLATE_API=;INPUTCORE_API=;SLATECORE_API=;EDITORSTYLE_API=;SESSIONSERVICES_API=;SESSIONLAUNCHER_API=;TARGETPLATFORM_API=;SLATEREFLECTOR_API=;STANDALONERENDERER_API=;NETWORKING_API=;SOCKETS_PACKAGE=1;SOCKETS_API=;UDPMESSAGING_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Programs\UnrealFrontend\Private;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Launch\Private;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Launch\Public;..\Build\Win64\UnrealFrontend\Inc\UnrealFrontend;..\Build\Win64\UnrealFrontend\Inc\AutomationController;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\AutomationController\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\AutomationController\Public\Interfaces;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\Internationalization;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\Async;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\Concurrency;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\Containers;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\Delegates;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\GenericPlatform;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\HAL;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\Math;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\Misc;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\Modules;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\ProfilingDebugging;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\Serialization;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\Serialization\Json;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\Stats;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\Templates;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\UObject;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Core\Public\Windows;..\Build\Win64\UnrealFrontend\Inc\DeviceManager;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\DeviceManager\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\DeviceManager\Public\Interfaces;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\TargetDeviceServices\Classes;..\Build\Win64\UnrealFrontend\Inc\TargetDeviceServices;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\TargetDeviceServices\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\TargetDeviceServices\Public\Interfaces;..\Build\Win64\UnrealFrontend\Inc\LauncherServices;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\LauncherServices\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\LauncherServices\Public\Common;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\LauncherServices\Public\Interfaces;..\Build\Win64\UnrealFrontend\Inc\Messaging;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Messaging\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Messaging\Public\Common;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Messaging\Public\Interfaces;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\CoreUObject\Classes;..\Build\Win64\UnrealFrontend\Inc\CoreUObject;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\CoreUObject\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\CoreUObject\Public\Blueprint;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\CoreUObject\Public\Misc;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\CoreUObject\Public\Serialization;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\CoreUObject\Public\Templates;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\CoreUObject\Public\UObject;..\Build\Win64\UnrealFrontend\Inc\ProfilerClient;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\ProfilerClient\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\ProfilerClient\Public\Interfaces;..\Build\Win64\UnrealFrontend\Inc\ProfilerService;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\ProfilerService\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\ProfilerService\Public\Interfaces;..\Build\Win64\UnrealFrontend\Inc\Projects;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Projects\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Projects\Public\Interfaces;..\Build\Win64\UnrealFrontend\Inc\SessionFrontend;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\SessionFrontend\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\SessionFrontend\Public\Interfaces;..\Build\Win64\UnrealFrontend\Inc\Slate;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Framework;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Widgets;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Framework\Application;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Framework\Commands;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Framework\Docking;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Framework\Layout;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Framework\Notifications;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Framework\Styling;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Framework\Text;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Framework\Views;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Framework\Text\IOS;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Widgets\Colors;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Widgets\Docking;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Widgets\Images;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Widgets\Input;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Widgets\Layout;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Widgets\Testing;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Widgets\Text;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Widgets\Tutorials;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Slate\Public\Widgets\Views;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\InputCore\Classes;..\Build\Win64\UnrealFrontend\Inc\InputCore;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\InputCore\Public;..\Build\Win64\UnrealFrontend\Inc\SlateCore;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\SlateCore\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\SlateCore\Public\Animation;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\SlateCore\Public\Application;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\SlateCore\Public\Brushes;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\SlateCore\Public\Fonts;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\SlateCore\Public\Input;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\SlateCore\Public\Layout;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\SlateCore\Public\Logging;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\SlateCore\Public\Rendering;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\SlateCore\Public\Sound;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\SlateCore\Public\Styling;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\SlateCore\Public\Textures;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\SlateCore\Public\Types;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\SlateCore\Public\Widgets;..\Build\Win64\UnrealFrontend\Inc\EditorStyle;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Editor\EditorStyle\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Editor\EditorStyle\Public\Classes;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Editor\EditorStyle\Public\Interfaces;..\Build\Win64\UnrealFrontend\Inc\SessionServices;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\SessionServices\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\SessionServices\Public\Interfaces;..\Build\Win64\UnrealFrontend\Inc\SessionLauncher;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\SessionLauncher\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\SessionLauncher\Public\Interfaces;..\Build\Win64\UnrealFrontend\Inc\TargetPlatform;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\TargetPlatform\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\TargetPlatform\Public\Common;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\TargetPlatform\Public\Interfaces;..\Build\Win64\UnrealFrontend\Inc\SlateReflector;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\SlateReflector\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\SlateReflector\Public\Interfaces;..\Build\Win64\UnrealFrontend\Inc\StandaloneRenderer;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\StandaloneRenderer\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Developer\StandaloneRenderer\Public\IOS;..\Build\Win64\UnrealFrontend\Inc\Networking;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Networking\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Networking\Public\Common;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Networking\Public\Interfaces;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Networking\Public\Interfaces\IPv4;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Networking\Public\Interfaces\Steam;..\Build\Win64\UnrealFrontend\Inc\Sockets;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Source\Runtime\Sockets\Public;..\Build\Win64\UnrealFrontend\Inc\UdpMessaging;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging\Public;E:\UnrealEngine4\Unreal Engine 4.2\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging\Public\Interfaces;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+	</ItemDefinitionGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

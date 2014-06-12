@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\Mac\UE4EditorServices\UE4EditorServices.Target.cs" />
+		<None Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\Mac\UE4EditorServices\UE4EditorServices.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{AEC6D2B1-6749-4994-A5BB-1B16EFF70F08}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Private\Mac">
+			<UniqueIdentifier>{99F393B9-CA32-4CB5-B069-B685C7CA2C99}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\Mac\UE4EditorServices\Private\Mac\UE4EditorServicesAppDelegate.cpp">
+			<Filter>Private\Mac</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\Mac\UE4EditorServices\Private\Mac\UE4EditorServicesAppDelegate.h">
+			<Filter>Private\Mac</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\Mac\UE4EditorServices\Private\Mac\UE4EditorServicesMain.cpp">
+			<Filter>Private\Mac</Filter>
+		</ClCompile >
+		<Filter Include="Private\Windows">
+			<UniqueIdentifier>{539FC419-D47C-4BBF-B0BC-7114DCF55B8B}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\Mac\UE4EditorServices\Private\Windows\UE4EditorServicesMain.cpp">
+			<Filter>Private\Windows</Filter>
+		</ClCompile >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{8894DE6B-DF0F-43F7-B4EA-6E698DBB2296}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Resources\Mac">
+			<UniqueIdentifier>{AA59D289-374D-43D3-8465-923F01CC8258}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\Mac\UE4EditorServices\Resources\Mac\Info.plist">
+			<Filter>Resources\Mac</Filter>
+		</None >
+		<None Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\Mac\UE4EditorServices\Resources\Mac\MainMenu.xib">
+			<Filter>Resources\Mac</Filter>
+		</None >
+	</ItemGroup>
+</Project>

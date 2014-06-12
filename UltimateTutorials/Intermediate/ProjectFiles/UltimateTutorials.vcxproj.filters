@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\UltimateTutorials.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{326D027F-10B8-4533-8076-8DCEA12BCF35}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UltimateTutorials.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\UltimateTutorialsEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{EC71B63D-E922-4CE7-BEE4-9BBEB9300315}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\UltimateTutorials">
+			<UniqueIdentifier>{6CD273C6-FB1F-4D7A-AC88-708C12DAF254}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\UltimateTutorials\DayNightLight.cpp">
+			<Filter>Source\UltimateTutorials</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UltimateTutorials\DayNightLight.h">
+			<Filter>Source\UltimateTutorials</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UltimateTutorials\DayTimeLight.cpp">
+			<Filter>Source\UltimateTutorials</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UltimateTutorials\DayTimeLight.h">
+			<Filter>Source\UltimateTutorials</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\UltimateTutorials\UltimateTutorials.Build.cs">
+			<Filter>Source\UltimateTutorials</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\UltimateTutorials\UltimateTutorials.cpp">
+			<Filter>Source\UltimateTutorials</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UltimateTutorials\UltimateTutorials.h">
+			<Filter>Source\UltimateTutorials</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UltimateTutorials\UltimateTutorialsCharacter.cpp">
+			<Filter>Source\UltimateTutorials</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UltimateTutorials\UltimateTutorialsCharacter.h">
+			<Filter>Source\UltimateTutorials</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UltimateTutorials\UltimateTutorialsGameMode.cpp">
+			<Filter>Source\UltimateTutorials</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UltimateTutorials\UltimateTutorialsGameMode.h">
+			<Filter>Source\UltimateTutorials</Filter>
+		</ClInclude >
+		<Filter Include="Source\UltimateTutorials\Resources">
+			<UniqueIdentifier>{8A58BA25-C845-4702-A106-E66D4F551CE5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\UltimateTutorials\Resources\Windows">
+			<UniqueIdentifier>{51560C6A-450A-4A23-878F-AE10C19CFB8D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UltimateTutorials\Resources\Windows\UltimateTutorials.ico">
+			<Filter>Source\UltimateTutorials\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\UltimateTutorials\Resources\Windows\UltimateTutorials.rc">
+			<Filter>Source\UltimateTutorials\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

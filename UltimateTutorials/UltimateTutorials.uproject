@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "0.0",
+	"EngineVersion": "4.1.1-2066463+++depot+UE4-Releases+4.1",
+	"PackageFileUE4Version": 352,
+	"PackageFileLicenseeUE4Version": 0,
+	"EngineAssociation": "{14EC7BD5-44CC-8293-C9E5-33BA9040E353}",
+	"FriendlyName": "",
+	"Description": "",
+	"Category": "",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"Modules": [
+		{
+			"Name": "UltimateTutorials",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"EpicSampleNameHash": "0"
+}
