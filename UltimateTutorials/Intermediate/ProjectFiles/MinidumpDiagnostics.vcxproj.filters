@@ -5,28 +5,28 @@
 		<None Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\MinidumpDiagnostics.Target.cs" />
 		<None Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\MinidumpDiagnostics.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{B91EE424-9A18-42F2-886A-51FCBF0952DB}</UniqueIdentifier>
+			<UniqueIdentifier>{C78679F5-3082-43DF-A43B-5A1B5EEF056A}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Private\MinidumpDiagnosticsApp.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
 		<Filter Include="Private\Windows">
-			<UniqueIdentifier>{534A2357-29F1-4032-958C-1F0D933C91C3}</UniqueIdentifier>
+			<UniqueIdentifier>{E2EFBEE4-241C-46B3-A4C0-22122F5F9221}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Private\Windows\MinidumpDiagnosticsMainWindows.cpp">
 			<Filter>Private\Windows</Filter>
 		</ClCompile >
 		<Filter Include="Public">
-			<UniqueIdentifier>{221629CA-2E6F-4BA4-BE6A-00BFFD41AAF5}</UniqueIdentifier>
+			<UniqueIdentifier>{5F1D9EA1-FD43-4DF3-9871-FD808F7C0C4B}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Public\MinidumpDiagnosticsApp.h">
 			<Filter>Public</Filter>
 		</ClInclude >
 		<Filter Include="Resources">
-			<UniqueIdentifier>{65326CEA-8ED4-4035-8030-DEBCABD035F9}</UniqueIdentifier>
+			<UniqueIdentifier>{A5A57D9F-4518-4662-84EA-0FEA7752D149}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Resources\Windows">
-			<UniqueIdentifier>{862BABE3-ECAF-4743-9939-CB02BC1163A6}</UniqueIdentifier>
+			<UniqueIdentifier>{E9213C9A-ED54-4DBD-B02D-041EA943E8DC}</UniqueIdentifier>
 		</Filter>
 		<Manifest Include="..\..\..\..\Unreal Engine 4.2\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Resources\Windows\Debug-PCLaunch-Win32.manifest">
 			<Filter>Resources\Windows</Filter>

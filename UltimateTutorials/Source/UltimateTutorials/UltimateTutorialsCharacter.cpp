@@ -54,7 +54,7 @@ void AUltimateTutorialsCharacter::SetupPlayerInputComponent(class UInputComponen
 	InputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	
 	InputComponent->BindAction("Sprint", IE_Pressed, this, &AUltimateTutorialsCharacter::Sprint);
-	InputComponent->BindAction("Sprint", IE_Released, this, &AUltimateTutorialsCharacter::Walk);
+	InputComponent->BindAction("Sprint", IE_Released, this, &AUltimateTutorialsCharacter::Jog);
 	InputComponent->BindAction("Jog", IE_Pressed, this, &AUltimateTutorialsCharacter::Jog);
 
 	InputComponent->BindAction("ZoomIn", IE_Pressed, this, &AUltimateTutorialsCharacter::ZoomIn);
@@ -137,7 +137,7 @@ void AUltimateTutorialsCharacter::Jog()
 
 	if (bJogging)
 	{
-		CharacterMovement->MaxWalkSpeed = 600.f;
+		CharacterMovement->MaxWalkSpeed = 800.f;
 	}
 	else
 	{

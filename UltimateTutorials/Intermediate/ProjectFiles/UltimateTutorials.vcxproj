@@ -332,8 +332,6 @@
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
 		<None Include="..\..\Config\DefaultInput.ini" />
-		<ClCompile Include="..\..\Source\UltimateTutorials\DayNightLight.cpp" />
-		<ClInclude Include="..\..\Source\UltimateTutorials\DayNightLight.h" />
 		<ClCompile Include="..\..\Source\UltimateTutorials\DayTimeLight.cpp" />
 		<ClInclude Include="..\..\Source\UltimateTutorials\DayTimeLight.h" />
 		<None Include="..\..\Source\UltimateTutorials\UltimateTutorials.Build.cs" />

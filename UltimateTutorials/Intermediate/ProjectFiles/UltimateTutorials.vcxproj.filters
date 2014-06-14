@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\UltimateTutorials.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{326D027F-10B8-4533-8076-8DCEA12BCF35}</UniqueIdentifier>
+			<UniqueIdentifier>{4B6ABB57-3B30-4C94-9AF9-AA143F17236C}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\UltimateTutorials.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{EC71B63D-E922-4CE7-BEE4-9BBEB9300315}</UniqueIdentifier>
+			<UniqueIdentifier>{96CE2E8B-092A-4DD6-9468-1F9B1722EC5C}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,14 +31,8 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\UltimateTutorials">
-			<UniqueIdentifier>{6CD273C6-FB1F-4D7A-AC88-708C12DAF254}</UniqueIdentifier>
+			<UniqueIdentifier>{7E8B4CC1-CE13-455A-8890-5113778A3CE3}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\Source\UltimateTutorials\DayNightLight.cpp">
-			<Filter>Source\UltimateTutorials</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\UltimateTutorials\DayNightLight.h">
-			<Filter>Source\UltimateTutorials</Filter>
-		</ClInclude >
 		<ClCompile Include="..\..\Source\UltimateTutorials\DayTimeLight.cpp">
 			<Filter>Source\UltimateTutorials</Filter>
 		</ClCompile >
@@ -67,10 +61,10 @@
 			<Filter>Source\UltimateTutorials</Filter>
 		</ClInclude >
 		<Filter Include="Source\UltimateTutorials\Resources">
-			<UniqueIdentifier>{8A58BA25-C845-4702-A106-E66D4F551CE5}</UniqueIdentifier>
+			<UniqueIdentifier>{72901AA5-127D-428D-909D-0B6D6A53B5C2}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Source\UltimateTutorials\Resources\Windows">
-			<UniqueIdentifier>{51560C6A-450A-4A23-878F-AE10C19CFB8D}</UniqueIdentifier>
+			<UniqueIdentifier>{5413A7C7-BE33-4879-899F-1F3348CF7B17}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\UltimateTutorials\Resources\Windows\UltimateTutorials.ico">
 			<Filter>Source\UltimateTutorials\Resources\Windows</Filter>
